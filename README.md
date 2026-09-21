@@ -29,6 +29,23 @@ https://freeanimationpower.github.io/FREE-ANIMATION-POWER_TEXT-MOTION-CONTROL/
 
 ## Caracteristicas
 
+```mermaid
+flowchart LR
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#ffdc00', 'primaryBorderColor': '#1a1a1a', 'primaryTextColor': '#1a1a1a', 'lineColor': '#ff4200', 'fontFamily': 'Segoe UI'}}}%%
+    classDef ui fill:#ffdc00,stroke:#1a1a1a,color:#1a1a1a,stroke-width:2px;
+    classDef engine fill:#ff4200,stroke:#1a1a1a,color:#ffffff,stroke-width:2px;
+    classDef data fill:#1a1a1a,stroke:#ff4200,color:#ffffff,stroke-width:2px;
+    classDef ext fill:#ffffff,stroke:#1a1a1a,color:#1a1a1a,stroke-width:2px,stroke-dasharray:6 3;
+        TXT["🔤 Texto libre<br/>letra por letra editable"] --> TIP["✒️ Tipografía<br/>220 fuentes Google · peso · cursiva<br/>tamaño · espaciado · interlineado"]
+        TIP --> PRS["🎬 205 presets en vivo<br/>Entradas · Máquina · Espaciado · Ondas<br/>3D · Glitch · Rebote · Color · Trazo · Salida"]
+        PRS --> TIM["⏱️ Timeline<br/>duración por letra · scrubbing<br/>ESPACIO = reproducir / pausar"]
+        TIM --> EXP["📤 Exportar<br/>WebM / MP4 / GIF<br/>canal alfa incluido"]
+        class TXT,TIP ui
+        class PRS engine
+        class TIM data
+        class EXP ext
+```
+
 - 205 animaciones editables en 30 familias: Entradas, Maquina, Espaciado, Ondas, 3D, Glitch, Rebote, Color, Trazo, Salida y ambient, Revelados, Elasticos, Liquido, Caminos, Fisica, Profundidad, Luces, Tipograficos, Ambientales, Aterrizajes, Cinematicos, Kinetic Type, Editorial Elegante, Whip y Overshoot, Texturas y Grano, Flujo y Liquido, Minimal Moderno, 3D Profundo, Letras Objeto y Espectaculares (inspiradas en Animation Composer de Mr. Horse)
 - Buscador de efectos por nombre en el panel derecho
 - Edicion por letra integrada en la misma seccion de tipografia: al seleccionar una letra en el escenario, fuente, peso, cursiva, tamano y color editan SOLO esa letra; arrastrala para moverla y usa el tirador naranja para redimensionar
