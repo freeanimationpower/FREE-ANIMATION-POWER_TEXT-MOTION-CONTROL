@@ -31,15 +31,14 @@ https://freeanimationpower.github.io/FREE-ANIMATION-POWER_TEXT-MOTION-CONTROL/
 
 ```mermaid
 flowchart LR
-%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#ffdc00', 'primaryBorderColor': '#1a1a1a', 'primaryTextColor': '#1a1a1a', 'lineColor': '#ff4200', 'fontFamily': 'Segoe UI'}}}%%
     classDef ui fill:#ffdc00,stroke:#1a1a1a,color:#1a1a1a,stroke-width:2px;
     classDef engine fill:#ff4200,stroke:#1a1a1a,color:#ffffff,stroke-width:2px;
     classDef data fill:#1a1a1a,stroke:#ff4200,color:#ffffff,stroke-width:2px;
-    classDef ext fill:#ffffff,stroke:#1a1a1a,color:#1a1a1a,stroke-width:2px,stroke-dasharray:6 3;
-        TXT["🔤 Texto libre<br/>letra por letra editable"] --> TIP["✒️ Tipografía<br/>220 fuentes Google · peso · cursiva<br/>tamaño · espaciado · interlineado"]
-        TIP --> PRS["🎬 205 presets en vivo<br/>Entradas · Máquina · Espaciado · Ondas<br/>3D · Glitch · Rebote · Color · Trazo · Salida"]
-        PRS --> TIM["⏱️ Timeline<br/>duración por letra · scrubbing<br/>ESPACIO = reproducir / pausar"]
-        TIM --> EXP["📤 Exportar<br/>WebM / MP4 / GIF<br/>canal alfa incluido"]
+    classDef ext fill:#ffffff,stroke:#1a1a1a,color:#1a1a1a,stroke-width:2px;
+        TXT["Texto libre<br/>letra por letra editable"] --> TIP["Tipografia<br/>220 fuentes Google · peso · cursiva<br/>tamano · espaciado · interlineado"]
+        TIP --> PRS["205 presets en vivo<br/>Entradas · Maquina · Espaciado · Ondas<br/>3D · Glitch · Rebote · Color · Trazo · Salida"]
+        PRS --> TIM["Timeline<br/>duracion por letra · scrubbing<br/>ESPACIO = reproducir / pausar"]
+        TIM --> EXP["Exportar<br/>WebM / MP4 / GIF<br/>canal alfa incluido"]
         class TXT,TIP ui
         class PRS engine
         class TIM data
