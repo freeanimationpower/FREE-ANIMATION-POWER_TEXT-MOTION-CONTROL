@@ -1,4 +1,23 @@
 #FREE ANIMATION POWER_TEXT MOTION CONTROL
+<p align="center">
+  <a href="https://freeanimationpower.org"><img src="https://img.shields.io/badge/Web_Hub-freeanimationpower.org-ffdc00?style=for-the-badge" alt="Web Hub"></a>
+  <a href="https://www.youtube.com/@freeanimationpower"><img src="https://img.shields.io/badge/YouTube-@freeanimationpower-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
+  <a href="https://github.com/freeanimationpower"><img src="https://img.shields.io/badge/GitHub-freeanimationpower-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+</p>
+
+<p align="center">
+  <img src="docs/screenshot.png" alt="Free Text Motion — estudio de texto animado con 205 presets" width="860">
+</p>
+
+## 🎬 Videos
+
+📺 Canal oficial: [@freeanimationpower](https://www.youtube.com/@freeanimationpower)
+
+| Vídeo | Título |
+|---|---|
+| <a href="https://youtu.be/AuvKQD07h6M"><img src="https://i.ytimg.com/vi/AuvKQD07h6M/hqdefault.jpg" width="240"></a> | [Poniendo a prueba Free Text Motion (demo 1)](https://youtu.be/AuvKQD07h6M) |
+| <a href="https://youtu.be/N_2vQB6QtDs"><img src="https://i.ytimg.com/vi/N_2vQB6QtDs/hqdefault.jpg" width="240"></a> | [Poniendo a prueba Free Text Motion (demo 2)](https://youtu.be/N_2vQB6QtDs) |
+| <a href="https://youtu.be/th-aVyyF1To"><img src="https://i.ytimg.com/vi/th-aVyyF1To/hqdefault.jpg" width="240"></a> | [Poniendo a prueba Free Text Motion (demo 3)](https://youtu.be/th-aVyyF1To) |
 
 Estudio de texto animado (motion graphics) del ecosistema [Free Animation Power](https://freeanimationpower.org).
 
