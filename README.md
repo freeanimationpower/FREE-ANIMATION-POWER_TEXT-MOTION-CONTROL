@@ -1,4 +1,4 @@
-# FAP Text Motion
+#FREE ANIMATION POWER_TEXT MOTION CONTROL
 
 Estudio de texto animado (motion graphics) del ecosistema [Free Animation Power](https://freeanimationpower.org).
 
