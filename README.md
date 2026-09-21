@@ -25,7 +25,7 @@ Anima textos en el navegador con 105 presets editables, fuentes de Google, timel
 
 ## Demo en vivo
 
-https://freeanimationpower.github.io/FAP_TEXTMOTION/
+https://freeanimationpower.github.io/FREE-ANIMATION-POWER_TEXT-MOTION-CONTROL/
 
 ## Caracteristicas
 
