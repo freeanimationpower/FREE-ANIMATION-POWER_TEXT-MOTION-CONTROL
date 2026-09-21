@@ -9,7 +9,7 @@
   <img src="docs/screenshot.png" alt="Free Text Motion — estudio de texto animado con 205 presets" width="860">
 </p>
 
-## 🎬 Videos
+## 🎬 Vídeos
 
 📺 Canal oficial: [@freeanimationpower](https://www.youtube.com/@freeanimationpower)
 
@@ -21,13 +21,13 @@
 
 Estudio de texto animado (motion graphics) del ecosistema [Free Animation Power](https://freeanimationpower.org).
 
-Anima textos en el navegador con 105 presets editables, fuentes de Google, timeline con scrubbing y exportacion a video con o sin transparencia.
+Anima textos en el navegador con 105 presets editables, fuentes de Google, timeline con scrubbing y exportación a vídeo con o sin transparencia.
 
 ## Demo en vivo
 
 https://freeanimationpower.github.io/FREE-ANIMATION-POWER_TEXT-MOTION-CONTROL/
 
-## Caracteristicas
+## Características
 
 ```mermaid
 flowchart LR
@@ -47,16 +47,16 @@ flowchart LR
 
 - 205 animaciones editables en 30 familias: Entradas, Maquina, Espaciado, Ondas, 3D, Glitch, Rebote, Color, Trazo, Salida y ambient, Revelados, Elasticos, Liquido, Caminos, Fisica, Profundidad, Luces, Tipograficos, Ambientales, Aterrizajes, Cinematicos, Kinetic Type, Editorial Elegante, Whip y Overshoot, Texturas y Grano, Flujo y Liquido, Minimal Moderno, 3D Profundo, Letras Objeto y Espectaculares (inspiradas en Animation Composer de Mr. Horse)
 - Buscador de efectos por nombre en el panel derecho
-- Edicion por letra integrada en la misma seccion de tipografia: al seleccionar una letra en el escenario, fuente, peso, cursiva, tamano y color editan SOLO esa letra; arrastrala para moverla y usa el tirador naranja para redimensionar
-- Keyframes por propiedad: anima tamano, espaciado de letras, interlineado, opacidad, rotacion y escala con puntos arrastrables en la linea de tiempo (interpolacion lineal)
-- 220 fuentes de Google en un unico selector agrupado por categoria (Display, Sans Serif, Serif, Mono, Script, Decorativas y listas extra); cada nombre se muestra en su propia tipografia
-- Deshacer y rehacer: Ctrl+Z / Ctrl+Y y botones en la linea de tiempo (tambien para movil)
+- Edición por letra integrada en la misma sección de tipografia: al seleccionar una letra en el escenario, fuente, peso, cursiva, tamano y color editan SOLO esa letra; arrastrala para moverla y usa el tirador naranja para redimensionar
+- Keyframes por propiedad: anima tamano, espaciado de letras, interlineado, opacidad, rotación y escala con puntos arrastrables en la linea de tiempo (interpolación lineal)
+- 220 fuentes de Google en un único selector agrupado por categoria (Display, Sans Serif, Serif, Mono, Script, Decorativas y listas extra); cada nombre se muestra en su propia tipografia
+- Deshacer y rehacer: Ctrl+Z / Ctrl+Y y botones en la linea de tiempo (también para movil)
 - Diseno responsive completo para tablets y moviles
-- Parametros por preset (velocidad, amplitud, potencia, ecos, etc.) + controles globales: easing (8 curvas), duracion de entrada, stagger por letra, animacion de salida espejo, bucle
+- Parámetros por preset (velocidad, amplitud, potencia, ecos, etc.) + controles globales: easing (8 curvas), duracion de entrada, stagger por letra, animación de salida espejo, bucle
 - Tipografia: 16 fuentes de Google curadas + fuente personalizada de Google, peso (400/700/900), cursiva, tamano, espaciado, interlineado, alineacion
 - Relleno, contorno o ambos, con colores y grosor configurables; degradados, sombras, motion blur
 - Fondo activable o transparencia total (checkerboard en el escenario)
-- Exportacion WebM (con canal alfa real), MOV (ProRes 4444 con alfa, compatible con After Effects/Premiere), MP4 y GIF (con transparencia), 24/30/60 fps
+- Exportación WebM (con canal alfa real), MOV (ProRes 4444 con alfa, compatible con After Effects/Premiere), MP4 y GIF (con transparencia), 24/30/60 fps
 - Guardar y abrir proyectos JSON (.textmotion) + autoguardado en localStorage
 - Atajos: ESPACIO reproduce/pausa, clic en la linea de tiempo para scrubbing
 
@@ -76,9 +76,9 @@ En localhost el email gate se omite automaticamente (bypass de desarrollo). En p
 
 | Archivo | Uso |
 |---------|-----|
-| index.php | Version de produccion con email gate (Hostinger/PHP) |
+| index.php | Versión de produccion con email gate (Hostinger/PHP) |
 | docs/index.html | Demo estatica identica, servida por GitHub Pages |
 
 ## Stack
 
-HTML5 + CSS3 + Vanilla JS + Canvas 2D. Cero dependencias. Motor de render determinista por tiempo: la misma funcion dibuja el preview en vivo y cada frame de exportacion.
+HTML5 + CSS3 + Vanilla JS + Canvas 2D. Cero dependencias. Motor de render determinista por tiempo: la misma función dibuja el preview en vivo y cada frame de exportación.
