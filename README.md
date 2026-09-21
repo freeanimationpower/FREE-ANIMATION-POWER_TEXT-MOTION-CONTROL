@@ -37,7 +37,7 @@ flowchart LR
     classDef ext fill:#ffffff,stroke:#1a1a1a,color:#1a1a1a,stroke-width:2px;
         TXT["Texto libre<br/>letra por letra editable"] --> TIP["Tipografia<br/>220 fuentes Google · peso · cursiva<br/>tamano · espaciado · interlineado"]
         TIP --> PRS["205 presets en vivo<br/>Entradas · Maquina · Espaciado · Ondas<br/>3D · Glitch · Rebote · Color · Trazo · Salida"]
-        PRS --> TIM["Timeline<br/>duracion por letra · scrubbing<br/>ESPACIO = reproducir / pausar"]
+        PRS --> TIM["Timeline<br/>duración por letra · scrubbing<br/>ESPACIO = reproducir / pausar"]
         TIM --> EXP["Exportar<br/>WebM / MP4 / GIF<br/>canal alfa incluido"]
         class TXT,TIP ui
         class PRS engine
@@ -52,7 +52,7 @@ flowchart LR
 - 220 fuentes de Google en un único selector agrupado por categoria (Display, Sans Serif, Serif, Mono, Script, Decorativas y listas extra); cada nombre se muestra en su propia tipografia
 - Deshacer y rehacer: Ctrl+Z / Ctrl+Y y botones en la linea de tiempo (también para movil)
 - Diseno responsive completo para tablets y moviles
-- Parámetros por preset (velocidad, amplitud, potencia, ecos, etc.) + controles globales: easing (8 curvas), duracion de entrada, stagger por letra, animación de salida espejo, bucle
+- Parámetros por preset (velocidad, amplitud, potencia, ecos, etc.) + controles globales: easing (8 curvas), duración de entrada, stagger por letra, animación de salida espejo, bucle
 - Tipografia: 16 fuentes de Google curadas + fuente personalizada de Google, peso (400/700/900), cursiva, tamano, espaciado, interlineado, alineacion
 - Relleno, contorno o ambos, con colores y grosor configurables; degradados, sombras, motion blur
 - Fondo activable o transparencia total (checkerboard en el escenario)
